@@ -1,3 +1,5 @@
+list_file_include_guard(VERSION 1.2.0)
+
 # ~~~
 # project_include_guard.cmake
 # Provides a generalized include guard mechanism with version checking.

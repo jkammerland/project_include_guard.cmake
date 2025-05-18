@@ -39,7 +39,7 @@ include(FetchContent)
 FetchContent_Declare(
     project_include_guard
     GIT_REPOSITORY https://github.com/jkammerland/project_include_guard.cmake.git
-    GIT_TAG v1.1.0 # or branch/commit
+    GIT_TAG v1.2.0 # or branch/commit
 )
 FetchContent_MakeAvailable(project_include_guard)
 
@@ -49,7 +49,7 @@ FetchContent_MakeAvailable(project_include_guard)
 ### Using CPM
 
 ```cmake
-cpmaddpackage("gh:jkammerland/project_include_guard.cmake@1.1.0")
+cpmaddpackage("gh:jkammerland/project_include_guard.cmake@1.2.0")
 ```
 
 ### Manual Installation
