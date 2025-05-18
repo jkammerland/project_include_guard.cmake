@@ -1,4 +1,5 @@
 project(A VERSION 1.2) # NEWER VERSION SHOULD PRODUCE WARNING
-message("SHOULD NOT SEE NEXT LOG MESSAGE, PROJECT A")
 project_include_guard()
+message("  PROJECT A")
+
 message(FATAL_ERROR "PROJECT A, ERROR")
