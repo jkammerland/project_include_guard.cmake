@@ -1,4 +1,4 @@
-project(B VERSION 0.1)
+project(B VERSION 0.1.0)
 include(A.cmake)
 
 project_include_guard()

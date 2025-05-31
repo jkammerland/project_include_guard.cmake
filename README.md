@@ -18,7 +18,7 @@ The new `list_file_include_guard` macro extends this functionality to individual
 - **File-level include guard**: Prevents multiple inclusions of the same file with version checking.
 - **Version compatibility checks**:
   - Fails with a clear error on **major version mismatch**.
-  - Issues a **warning** if a **newer version** is included.
+  - Issues a **warning** if a **newer minor version** is included, i.e the "y" in x.y.z.
   - Logs **verbosely** if an **older version** is included.
 
 ---
@@ -39,7 +39,7 @@ include(FetchContent)
 FetchContent_Declare(
     project_include_guard
     GIT_REPOSITORY https://github.com/jkammerland/project_include_guard.cmake.git
-    GIT_TAG v1.2.1 # or branch/commit
+    GIT_TAG v1.2.2 # or branch/commit
 )
 FetchContent_MakeAvailable(project_include_guard)
 
@@ -49,7 +49,7 @@ FetchContent_MakeAvailable(project_include_guard)
 ### Using CPM
 
 ```cmake
-cpmaddpackage("gh:jkammerland/project_include_guard.cmake@1.2.1")
+cpmaddpackage("gh:jkammerland/project_include_guard.cmake@1.2.2")
 ```
 
 ### Manual Installation
@@ -79,7 +79,7 @@ project_include_guard()
 
 ```cmake
 # In your individual CMake file
-list_file_include_guard(VERSION 1.2.1)
+list_file_include_guard(VERSION 1.2.2)
 ```
 
 > [!IMPORTANT]

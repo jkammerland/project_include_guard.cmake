@@ -1,1 +1,1 @@
-list_file_include_guard(VERSION 1.2.1)
+list_file_include_guard(VERSION 1.2.2)

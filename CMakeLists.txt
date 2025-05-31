@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.20)
 
-project(project_include_guard VERSION 1.2.1)
+project(project_include_guard VERSION 1.2.2)
 
 get_property(
   ${PROJECT_NAME}_INITIALIZED GLOBAL
