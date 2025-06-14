@@ -10,7 +10,7 @@ get_property(
   PROPERTY ${_LFG_PROPERTY}
   SET)
 if(_LFG_INITIALIZED)
-  list_file_include_guard(VERSION 1.2.3)
+  list_file_include_guard(VERSION 1.2.4)
 endif()
 
 # ~~~
@@ -116,5 +116,5 @@ macro(list_file_include_guard)
 endmacro()
 
 if(NOT _LFG_INITIALIZED)
-  list_file_include_guard(VERSION 1.2.3)
+  list_file_include_guard(VERSION 1.2.4)
 endif()
